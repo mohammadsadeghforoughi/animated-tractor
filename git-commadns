@@ -1,0 +1,41 @@
+git init => initialing Git repo (first time only)
+--------------
+git add . 
+git commit -m 'commit message'
+--------------
+git branch => for listing all branches
+git branch NAME => creating a branch with name NAME
+git checkout NAME => change current branch
+
+git checkout -b NAME => creating a branch with name NAME and change current branch to NAME
+
+git merge NAME => merge NAME branch with current branch
+---------------
+git pull => pull changes from origin
+git push => push changes to origin
+git clone => clone a repo
+---------------
+git stash 
+git fetch
+git revert
+git cherry-pick
+
+
+
+
+=====================
+
+
+commit=>
+add login page to users panel
+modify font size
+delete login icon
+
+branching=>
+main, master
+posts
+navbar
+footer
+
+
+

@@ -1,0 +1,36 @@
+.smoke {
+  animation: my-animation 500ms ease infinite;
+  position: relative;
+  left: 100px;
+}
+
+@keyframes my-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.wheel {
+  animation: wheel-animation 10s infinite linear;
+  transform-origin: center center;
+}
+
+@keyframes wheel-animation {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(-360deg);
+  }
+}
+
+svg * {
+  transform-origin: center; /* or transform-origin: 50% */
+  transform-box: fill-box;
+}
